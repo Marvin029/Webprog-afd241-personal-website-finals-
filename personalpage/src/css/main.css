@@ -1,0 +1,87 @@
+header {
+    background-image:URL('./images/transparent BG.png');
+    background-repeat: no-repeat;
+    background-color: #050505;
+    background-size: 1920px;
+    padding: 20px;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 15px;
+    font-family: arial;
+    color:white;
+    text-align: center;
+}
+
+body {
+    background-image:URL('./images/transparent BG.png');
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    font-family: Arial;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 10px;
+}
+
+img {
+    border-radius: 15px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: auto;
+    gap: 10px;
+}
+  
+.flex-con {
+  flex: auto;
+}
+footer {
+    background-color: #75757595;
+    padding: 20px;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 15px;
+    font-family: arial;
+/* FLEX */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+footer > div {
+  flex: auto;
+}
+.flex-con {
+  flex: auto;
+}
+.type1 {
+    background-color: #75757575;
+    padding: 5px;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 15px;
+}
+.type2 {
+    padding: 0px;
+    border-style: none;
+/* FLEX */
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto;
+}
+.type3 {
+    background-color: rgba(33, 33, 33, 0.625);
+    padding: 0px;
+    border-style: none;
+    border-radius: 15px;
+/* FLEX */
+    max-width: 192px;
+    max-height: 192px;
+    margin: 5px;
+}
